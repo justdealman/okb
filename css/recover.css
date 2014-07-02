@@ -1,0 +1,192 @@
+﻿/* Recover */
+
+div.recover {
+	text-align:center;
+	padding:37px 0 79px;
+}
+div.recover h1 {
+	position:relative;
+	color:#232629;
+	font-size:48px;
+	line-height:52px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 42px;
+}
+div.recover h1:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:28px;
+	width:100%;
+	height:6px;
+	background:#dbdbdb;
+}
+div.recover h1 span {
+	position:relative;
+	display:inline-block;
+	padding:0 45px 0 19px;
+	margin-left:-25px;
+	background:#ffffff;
+}
+div.recover > div {
+	text-align:left;
+	margin:0 0 20px;
+}
+div.recover h3 {
+	position:relative;
+	color:#232629;
+	font-size:18px;
+	line-height:22px;
+	text-align:left;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 90px 19px 95px;
+}
+div.recover h3:after {
+	content:'';
+	position:absolute;
+	left:0;
+	top:12px;
+	width:100%;
+	height:1px;
+	background:url('../img/register_h2_after.png') repeat-x top;
+}
+div.recover h3 > span {
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	vertical-align:top;
+	padding-right:24px;
+	background:#ffffff;
+}
+div.recover h3 span .radio {
+	float:left;
+	margin:2px 9px 0 0;
+}
+div.recover p {
+	position:relative;
+	color:#54555d;
+	font-size:14px;
+	line-height:17px;
+	margin:0 360px 7px 366px;
+}
+div.recover p span {
+	display:block;
+	margin:0 100px 3px 0;
+}
+div.recover p input {
+	position:relative;
+	width:185px;
+	color:#232629;
+	font-size:18px;
+	font-family:'Arial', sans-serif;
+	padding:6px 15px 4px;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #efefef;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+div.recover p input.code {
+	width:134px;
+}
+div.recover p input.error {
+	padding:5px 14px 3px;
+	background:#ffe5e5;
+	border:2px solid #ff2727;
+}
+div.recover p em.error {
+	display:block;
+	color:#ff2727;
+	font-size:12px;
+	line-height:14px;
+	font-style:normal;
+	font-family:'Arial', sans-serif;
+	margin:4px 0 -3px;
+}
+div.recover p .tip {
+	position:absolute;
+	left:338px;
+	top:24px;
+	display:block;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	background:url('../img/register_tip.png') no-repeat left top;
+}
+div.recover p .message {
+	display:block;
+	color:#6da2e3;
+	font-size:12px;
+	line-height:15px;
+	font-style:normal;
+	margin:4px 0 0;
+}
+div.recover p button {
+	display:inline-block;
+	width:113px;
+	color:#ffffff;
+	font-size:14px;
+	line-height:18px;
+	vertical-align:top;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:8px 0 8px;
+	margin:0 -3px 0 6px;
+	background:url('../img/recover_p_button.png') repeat-x top;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url('./pie.htc');
+}
+div.recover p button:hover {
+	background-position:0 -34px;
+}
+div.recover p button.disabled {
+	cursor:default;
+	background-position:0 0 !important;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+div.recover p a.repeat {
+	display:inline-block;
+	font-size:13px;
+	line-height:16px;
+	vertical-align:top;
+	margin:8px 0 10px 14px;
+}
+div.recover > div > div {
+	margin:15px 366px 7px;
+}
+div.recover > div > div button {
+	width:84px;
+	color:#ffffff;
+	font-size:14px;
+	line-height:18px;
+	vertical-align:top;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:8px 0 8px;
+	background:url('../img/recover_next.png') repeat-x top;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url('./pie.htc');
+}
+div.recover > div > div button:hover {
+	background-position:0 -34px;
+}
+div.recover > div > div button.disabled {
+	cursor:default;
+	background-position:0 0 !important;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}

@@ -1,0 +1,546 @@
+﻿/* Register */
+
+div.register {
+	text-align:center;
+	padding:37px 0 120px;
+}
+div.register h1 {
+	position:relative;
+	color:#232629;
+	font-size:48px;
+	line-height:52px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 60px;
+}
+div.register h1:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:28px;
+	width:100%;
+	height:6px;
+	background:#dbdbdb;
+}
+div.register h1 span {
+	position:relative;
+	display:inline-block;
+	padding:0 45px 0 19px;
+	margin-left:-25px;
+	background:#ffffff;
+}
+div.register h1 span img {
+	display:inline-block;
+	vertical-align:top;
+	margin:3px -9px -3px 0;
+}
+div.register > div {
+	text-align:left;
+	margin:0 0 28px;
+}
+div.register h2 {
+	position:relative;
+	color:#232629;
+	font-size:26px;
+	line-height:30px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 86px 22px 47px;
+}
+div.register .disabled h2 {
+	color:#b3b3b3;
+}
+div.register h2:after {
+	content:'';
+	position:absolute;
+	left:0;
+	top:16px;
+	width:100%;
+	height:1px;
+	background:url('../img/register_h2_after.png') repeat-x top;
+}
+div.register h2 span {
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	vertical-align:top;
+	padding-right:18px;
+	background:#ffffff;
+}
+div.register h2 em {
+	position:relative;
+	display:inline-block;
+	width:27px;
+	color:#ffffff;
+	font-size:18px;
+	line-height:22px;
+	font-style:normal;
+	text-align:center;
+	vertical-align:top;
+	padding:2px 1px 4px 0;
+	margin:4px 12px -2px 0;
+	background:#0079c2;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	behavior:url('./pie.htc');
+}
+div.register .disabled h2 em {
+	background:#25adff;
+}
+div.register p {
+	position:relative;
+	color:#54555d;
+	font-size:14px;
+	line-height:17px;
+	margin:0 366px 6px;
+}
+div.register p span {
+	display:block;
+	margin:0 0 3px;
+}
+div.register p input {
+	position:relative;
+	width:300px;
+	color:#232629;
+	font-size:18px;
+	font-family:'Arial', sans-serif;
+	padding:6px 15px 4px;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #efefef;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+div.register p input.error {
+	padding:5px 14px 3px;
+	background:#ffe5e5;
+	border:2px solid #ff2727;
+}
+div.register p em.error {
+	display:block;
+	color:#ff2727;
+	font-size:12px;
+	line-height:14px;
+	font-style:normal;
+	font-family:'Arial', sans-serif;
+	margin:4px 0 -3px;
+}
+div.register p .tip {
+	position:absolute;
+	left:338px;
+	top:24px;
+	display:block;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	background:url('../img/register_tip.png') no-repeat left top;
+}
+div.register p .tip em {
+	position:absolute;
+	left:32px;
+	top:50%;
+	width:245px;
+	color:#54555d;
+	font-size:12px;
+	line-height:15px;
+	font-style:normal;
+	padding:17px 10px 18px 15px;
+	background:#ffffff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.34);
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.34);
+	box-shadow:0 0 5px rgba(0,0,0,0.34);
+	behavior:url('./pie.htc');
+}
+div.register p .tip em:before {
+	content:'';
+	position:absolute;
+	left:-12px;
+	top:50%;
+	width:12px;
+	height:17px;
+	margin-top:-11px;
+	background:url('../img/register_tip_em_arrow.png') no-repeat left top;
+}
+div.register p .message {
+	display:block;
+	color:#6da2e3;
+	font-size:12px;
+	line-height:15px;
+	font-style:normal;
+	margin:5px 0 -1px;
+}
+div.register p .checkbox {
+	position:absolute;
+	left:349px;
+	top:29px;
+	white-space:nowrap;
+}
+div.register p .checkbox .checker {
+	display:inline-block;
+	vertical-align:top;
+	margin:-1px 7px 0 0;
+}
+div.register h5 {
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	padding:0;
+	margin:26px 366px 6px;
+}
+div.register h5 a {
+	display:inline-block;
+	color:#ffffff;
+	vertical-align:top;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:5px 18px 7px;
+	background:url('../img/register_h5.png') repeat-x top;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url('./pie.htc');
+}
+div.register h5 a:hover {
+	background-position:0 -34px;
+}
+div.register h5.disabled a {
+	cursor:default;
+	background-position:0 -68px !important;
+}
+div.register hr {
+	height:21px;
+	border:0;
+}
+div.register > div > div {
+	white-space:nowrap;
+	margin:0 366px;
+}
+div.register > div > div > div {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 -3px 0 0;
+}
+div.register > div > div > div p {
+	margin:0 0 6px;
+}
+div.register > div > div > div.series {
+	width:87px;
+	margin:0 67px 0 0;
+}
+div.register > div > div > div.series input {
+	width:55px;
+	margin:0 67px 0 0;
+}
+div.register > div > div > div.number {
+	width:175px;
+}
+div.register > div > div > div.number input {
+	width:143px;
+}
+div.register > div > div > div.index {
+	width:87px;
+}
+div.register > div > div > div.index input {
+	width:55px;
+}
+div.register > div > div > div.num {
+	width:74px;
+	margin:0 7px 0 0;
+}
+div.register > div > div > div.num input {
+	width:18px;
+}
+div.register .custom {
+	position:relative;
+	padding:30px 0 35px;
+	margin-top:42px;
+	background:#f4f4f4;
+}
+div.register .custom:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:4px;
+	background:url('../img/register_custom_before.png') repeat-x top;
+}
+div.register .custom:after {
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:4px;
+	background:url('../img/register_custom_after.png') repeat-x top;
+}
+div.register .custom h3 {
+	color:#232629;
+	font-size:17px;
+	line-height:21px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 94px;
+}
+div.register .custom h3 > span {
+	display:inline-block;
+	color:#54555d;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+	text-transform:none;
+	vertical-align:top;
+	margin:4px -11px 0 17px;
+}
+div.register .custom h3 span .radio {
+	display:inline-block;
+	vertical-align:top;
+	margin:-1px 7px 0 0;
+}
+div.register button.submit {
+	position:relative;
+	display:inline-block;
+	color:#ffffff;
+	font-size:24px;
+	line-height:28px;
+	font-weight:bold;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:24px 31px;
+	margin:13px 0 -140px;
+	background:url('../img/register_submit.png') repeat-x top;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+div.register button.submit:hover {
+	background-position:0 -76px;
+}
+div.register button.submit img {
+	display:inline-block;
+	vertical-align:top;
+	margin:-11px 17px -12px -3px;
+}
+
+/* Selectbox */
+
+.selectbox {
+	position:relative;
+	z-index:90;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.selectbox .select {
+	position:relative;
+	width:274px;
+	color:#232629;
+	font-size:18px;
+	line-height:22px;
+	font-family:'Arial', sans-serif;
+	padding:6px 41px 4px 15px;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #efefef;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+.selectbox .select .text {
+	display:block;
+	width:100%;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.selectbox .trigger {
+	position:absolute;
+	top:-1px;
+	right:-1px;
+	width:31px;
+	height:34px;
+	background:url('../img/select_arrow.png') no-repeat left top;
+}
+.selectbox .dropdown {
+	top:30px;
+	width:330px;
+	padding:3px 0 0;
+	margin:0;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+.selectbox ul {
+	margin:0 !important;
+}
+.selectbox li {
+	color:#232629;
+	font-size:18px;
+	line-height:22px;
+	font-family:'Arial', sans-serif;
+	padding:6px 15px 4px !important;
+	margin:0 !important;
+	border-top:1px solid #efefef;
+}
+.selectbox li:first-child {
+	border-top-width:0;
+}
+.selectbox li.selected {
+	background:#f2f2f2;
+}
+.selectbox li:hover {
+	background:#f0f0f0;
+}
+
+.fade {
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:2000;
+	width:100%;
+	height:100%;
+	background:url('../img/fade_bg.png') repeat;
+}
+div.modal {
+	display:none;
+	position:fixed;
+	left:50%;
+	top:50%;
+	z-index:2020;
+	width:580px;
+	left:50%;
+	top:50%;
+	padding:26px 44px 16px;
+	margin-left:-334px;
+	background:#ffffff;
+	-webkit-box-shadow:0 10px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow:0 10px 15px rgba(0,0,0,0.25);
+	box-shadow:0 10px 15px rgba(0,0,0,0.25);
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+div.modal h3 {
+	color:#00b2b5;
+	font-size:24px;
+	line-height:28px;
+	text-transform:uppercase;
+	padding:0 0 19px;
+	margin:0 0 15px;
+	background:url('../img/modal_line.png') repeat-x bottom;
+}
+div.modal > p {
+	color:#54555d;
+	font-size:18px;
+	line-height:22px;
+	margin:0 0 21px;
+}
+div.modal > div {
+	padding:21px 0 0;
+	margin:23px 0 24px;
+	background:url('../img/modal_line.png') repeat-x top;
+}
+div.modal > div p {
+	display:inline-block;
+	color:#232629;
+	font-size:14px;
+	line-height:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	vertical-align:top;
+	margin:0 -3px 0 0;
+}
+div.modal > div p span {
+	display:block;
+	margin:0 0 10px;
+}
+div.modal > div p input {
+	position:relative;
+	color:#232629;
+	font-size:18px;
+	font-family:'Arial', sans-serif;
+	padding:6px 15px 4px;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #efefef;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+div.modal > div p.code {
+	width:145px;
+	margin-right:15px;
+}
+div.modal > div p.code input {
+	width:123px;
+}
+div.modal > div p.phone {
+	width:233px;
+	margin-right:21px;
+}
+div.modal > div p.phone input {
+	width:211px;
+}
+div.modal > div p strong {
+	display:block;
+	padding:30px 0 0;
+}
+div.modal h6 {
+	color:#54555d;
+	font-size:16px;
+	line-height:20px;
+	font-weight:normal;
+	padding:0;
+	margin:0 0 11px;
+}
+div.modal h6 .checker {
+	float:left;
+	margin:2px 10px 0 0;
+}
+div.modal h5 {
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	padding:0;
+	margin:37px 0 21px;
+}
+div.modal h5 a {
+	display:inline-block;
+	color:#ffffff;
+	vertical-align:top;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:5px 18px 7px;
+	background:url('../img/register_h5.png') repeat-x top;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url('./pie.htc');
+}
+div.modal h5 a:hover {
+	background-position:0 -34px;
+}
+div.modal h5.disabled a {
+	cursor:default;
+	background-position:0 -68px !important;
+}

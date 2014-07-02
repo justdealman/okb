@@ -1,0 +1,278 @@
+﻿/* Support */
+
+.main > ul {
+	clear:both;
+	overflow:hidden;
+	width:1068px;
+	margin:0 0 0 -1px;
+}
+.main > ul li {
+	float:left;
+	font-size:16px;
+	line-height:20px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+}
+.main > ul li a {
+	position:relative;
+	display:block;
+	width:265px;
+	color:#ffffff;
+	text-decoration:none;
+	background:#00b2b5;
+	border-right:1px solid #00a3a6;
+	border-left:1px solid #22d9dc;
+}
+.main > ul li:first-child a {
+	border-left-width:0 !important;
+}
+.main > ul li:last-child {
+	margin-right:-10px;
+}
+.main > ul li:last-child a {
+	border-right-width:0 !important;
+}
+.main > ul li a:hover, .main > ul li.active a {
+	width:267px;
+	z-index:1;
+	color:#007ac2;
+	margin:0 -1px;
+	background:#ffffff;
+	border-right:1px solid #ffffff;
+	border-left:1px solid #ffffff;
+}
+.main > ul li:first-child a:hover, .main > ul li:first-child.active a {
+	width:266px;
+	margin-left:0;
+}
+.main > ul li:last-child a:hover, .main > ul li:last-child.active a {
+	width:266px;
+	margin-right:0;
+}
+.main > ul li a span {
+	display:block;
+	padding:18px 0 16px;
+}
+.main > ul li:nth-child(1) a span {
+	padding-left:22px;
+	background:#00b2b5 url('../img/main_ul_icon1.png') no-repeat 25px 16px;
+}
+.main > ul li:nth-child(1) a:hover span, .main > ul li:nth-child(1).active a span {
+	background-color:#ffffff;
+	background-position:25px -38px;
+}
+.main > ul li:nth-child(2) a span {
+	padding-left:22px;
+	background:#00b2b5 url('../img/main_ul_icon2.png') no-repeat 24px 16px;
+}
+.main > ul li:nth-child(2) a:hover span, .main > ul li:nth-child(2).active a span {
+	background-color:#ffffff;
+	background-position:25px -38px;
+}
+.main > ul li:nth-child(3) a span {
+	padding-left:6px;
+	background:#00b2b5 url('../img/main_ul_icon3.png') no-repeat 22px 14px;
+}
+.main > ul li:nth-child(3) a:hover span, .main > ul li:nth-child(3).active a span {
+	background-color:#ffffff;
+	background-position:23px -42px;
+}
+.main > ul li:nth-child(4) a span {
+	padding-left:24px;
+	background:#00b2b5 url('../img/main_ul_icon4.png') no-repeat 24px 15px;
+}
+.main > ul li:nth-child(4) a:hover span, .main > ul li:nth-child(4).active a span {
+	background-color:#ffffff;
+	background-position:25px -39px;
+}
+.main > ul li a em {
+	position:absolute;
+	top:12px;
+	min-width:12px;
+	display:block;
+	color:#ffffff;
+	font-size:12px;
+	line-height:16px;
+	font-weight:normal;
+	font-style:normal;
+	padding:1px 6px;
+	background:#0d8688;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+.main > ul li:nth-child(3) a em {
+	right:23px;
+}
+.main > ul li:nth-child(3) a:hover em, .main > ul li:nth-child(3).active a em {
+	right:24px;
+}
+.main > ul li:nth-child(4) a em {
+	right:11px;
+}
+.main > ul li a:hover em, .main > ul li.active a em {
+	background:#007ac2;
+}
+.main > div {
+	padding:42px 48px 51px 48px;
+}
+.support {
+	margin:0 32px px 48px;
+}
+.support h1 {
+	color:#232629;
+	font-size:26px;
+	line-height:30px;
+	font-weight:normal;
+	padding:0;
+	margin:0 0 39px;
+}
+.support h1 span {
+	position:relative;
+	float:right;
+	color:#ffffff;
+	font-size:12px;
+	line-height:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:4px 16px 4px 15px;
+	margin:7px 0 0 12px;
+	background:#00703c;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+.support .messages {
+	margin:0 0 19px;
+}
+.support .messages > div {
+	margin:0 0 11px;
+}
+.support .messages h5 {
+	color:#232629;
+	font-size:14px;
+	line-height:17px;
+	padding:0;
+	margin:0 23px 9px;
+}
+.support .messages > div > div {
+	position:relative;
+	padding:14px 16px 3px 23px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:0 1px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 1px 5px rgba(0,0,0,0.4);
+	box-shadow:0 1px 5px rgba(0,0,0,0.4);
+	behavior:url('./pie.htc');
+}
+.support .messages > div.answer > div {
+	background:#f5f5f5;
+}
+.support .messages > div > div p {
+	color:#54555d;
+	font-size:14px;
+	line-height:17px;
+	margin:0 0 17px;
+}
+.support .messages > div > div h6 {
+	color:#a2a2a2;
+	font-size:13px;
+	line-height:16px;
+	font-weight:normal;
+	text-align:right;
+	padding:0;
+	margin:-4px 0 9px;
+}
+.support .messages > div > div h6 a {
+	margin:0 0 0 3px;
+}
+.support .type {
+	width:968px;
+	padding:17px 48px 0 96px;
+	margin:0 -48px 32px -96px;
+	border-top:1px dotted #b0b0b0;
+}
+.support .type h5 {
+	color:#232629;
+	font-size:14px;
+	line-height:17px;
+	padding:0;
+	margin:0 23px 5px;
+}
+.support .type p {
+	margin:0 0 6px;
+}
+.support .type p textarea {
+	position:relative;
+	width:929px;
+	min-height:242px;
+	color:#54555d;
+	font-size:18px;
+	padding:11px 16px 11px 23px;
+	background:#f5f5f5;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:inset 0 0 3px rgba(0,0,0,0.28);
+	-moz-box-shadow:inset 0 0 3px rgba(0,0,0,0.28);
+	box-shadow:inset 0 0 3px rgba(0,0,0,0.28);
+	behavior:url('./pie.htc');
+	resize:vertical;
+}
+.support .type h6 {
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+	padding:0;
+	margin:0 23px;
+}
+.support .type h6 a {
+	font-weight:bold;
+	text-decoration:none;
+	margin:0 9px 0 0;
+	border-bottom:1px dotted #007ac2;
+}
+.support .type h6 a:hover {
+	border-bottom:1px dotted transparent;
+}
+.support .buttons {
+	margin:0 0 21px 23px;
+}
+.support .buttons button {
+	display:inline-block;
+	width:175px;
+	color:#ffffff;
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	vertical-align:top;
+	text-align:center;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:8px 0;
+	margin:0 -3px 0 29px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url('./pie.htc');
+}
+.support .buttons button:first-child {
+	margin-left:0;
+}
+.support .buttons button.send {
+	background:url('../img/support_button_send.png') repeat-x top;
+}
+.support .buttons button.cancel {
+	background:url('../img/support_button_cancel.png') repeat-x top;
+}
+.support .buttons button.solved {
+	background:url('../img/support_button_solved.png') repeat-x top;
+}
+
+.support .buttons button:hover {
+	background-position:0 -38px;
+}

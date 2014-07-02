@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Объединенное кредитное бюро</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link href="./css/main.css" rel="stylesheet" type="text/css" title="compact">
+	<link href="./css/register.css" rel="stylesheet" type="text/css" title="compact">
+	<link href="./css/uniform.css" rel="stylesheet" type="text/css" title="compact">
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/dynamic.js"></script>
+	<script type="text/javascript" src="./js/mask.js"></script>
+	<script type="text/javascript" src="./js/uniform.js"></script>
+	<script type="text/javascript" src="./js/selectbox.js"></script>
+	<script type="text/javascript" src="./js/register.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="panel">
+			<div>
+				<a href="#"><img src="./img/logo.png" width="139" height="65" class="logo" alt=""></a>
+				<div class="call">
+					<p>Колл-центр:</p>
+					<h3>8 800 100 500 1</h3>
+				</div>
+				<ul class="links">
+					<li>
+						<a href="#"><img src="./img/panel_link1.png" width="26" height="19" alt=""></a>
+						<div>
+							<p>Написать сообщение</p>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="./img/panel_link2.png" width="21" height="22" alt=""></a>
+						<div>
+							<p>Написать сообщение</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="autorization">
+					<li class="register"><a href="#">Регистрация</a></li>
+					<li class="login"><a href="#">Войти на сайт</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header">
+			<div>
+				<ul>
+					<li><a href="javascript:void(0);">О проекте</a></li>
+					<li>
+						<a href="javascript:void(0);">Сервисы</a>
+						<ul>
+							<li><a href="javascript:void(0);">Кредитный отчет</a></li>
+							<li><a href="javascript:void(0);">Скоринг</a></li>
+							<li><a href="javascript:void(0);">Уведомления</a></li>
+							<li><a href="javascript:void(0);">Исправление ошибок</a></li>
+							<li><a href="javascript:void(0);">Запрос в цкки</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:void(0);">Новости</a></li>
+					<li><a href="javascript:void(0);">FAQ</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="register">
+				<h1><span><img src="./img/register_icon.png" width="" height="" alt=""> Регистрация</span></h1>
+				<div>
+					<h2><span><em>1</em> Контактная информация</span></h2>
+					<p><span>Мобильный телефон:</span> <input type="text" class="phone" value="9536945423"> <em class="message">Необходимо подтверждение через SMS</em></p>
+					<p><span>Эл.почта:</span> <input type="text" value="email@mail.com"> <em class="message">Ваша электронная почта будет использоваться для авторизации в системе (логин).</em></p>
+					<p><span>Введите пароль:</span> <input type="password" value="123456"></p>
+					<p><span>Введите пароль повторно:</span> <input type="password" value="12345678" class="error"> <em class="error">пароли не совпадают</em></p>
+					<h5><a href="#">Далее</a></h5>
+				</div>
+				<div>
+					<h2><span><em>2</em> Паспортные данные</span></h2>
+					<p><span>Фамилия:</span> <input type="text"></p>
+					<p><span>Имя:</span> <input type="text"></p>
+					<p><span>Отчество:</span> <input type="text"> <span class="checkbox"><input type="checkbox"> Отсутствует</span></p>
+					<p><span>Дата рождения:</span> <input type="text" class="data"></p>
+					<p><span>Место рождения:</span> <input type="text"></p>
+					<div>
+						<div class="series">
+							<p><span>серия:</span> <input type="text"></p>
+						</div>
+						<div class="number">
+							<p><span>номер:</span> <input type="text"></p>
+						</div>
+					</div>
+					<p><span>Код подразделения:</span> <input type="text"></p>
+					<p><span>Дата выдачи:</span> <input type="text" class="data"></p>
+					<p><span>Кем выдан:</span> <input type="text"></p>
+				</div>
+				<div>
+					<h2><span><em>3</em> Адрес регистрации</span></h2>
+					<div>
+						<div class="index">
+							<p><span>Индекс:</span> <input type="text"></p>
+						</div>
+					</div>
+					<p>
+						<span>Регион:</span>
+						<select>
+							<option>- Московская область -</option>
+							<option>- Алтайский край -</option>
+						</select>
+					</p>
+					<p><span>Район:</span> <input type="text"></p>
+					<p><span>Населенный пункт:</span> <input type="text"></p>
+					<p><span>Улица:</span> <input type="text"></p>
+					<div>
+						<div class="num">
+							<p><span>Дом:</span> <input type="text"></p>
+						</div>
+						<div class="num">
+							<p><span>Строение:</span> <input type="text"></p>
+						</div>
+						<div class="num">
+							<p><span>Корпус:</span> <input type="text"></p>
+						</div>
+						<div class="num">
+							<p><span>Квартира:</span> <input type="text"></p>
+						</div>
+					</div>
+				</div>
+				<div class="custom">
+					<h3>Адрес проживания совпадает с адресом регистрации? <span><input type="radio" name="c1" value="yes" checked> Да</span> <span><input type="radio" value="no" name="c1"> Нет</span></h3>
+					<div>
+						<div class="index">
+							<p><span>Индекс:</span> <input type="text"></p>
+						</div>
+					</div>
+					<p>
+						<span>Регион:</span>
+						<select>
+							<option>- Московская область -</option>
+							<option>- Алтайский край -</option>
+						</select>
+					</p>
+					<p><span>Район:</span> <input type="text"></p>
+					<p><span>Населенный пункт:</span> <input type="text"></p>
+					<p><span>Улица:</span> <input type="text"></p>
+					<div>
+						<div class="num">
+							<p><span>Дом:</span> <input type="text"></p>
+						</div>
+						<div class="num">
+							<p><span>Строение:</span> <input type="text"></p>
+						</div>
+						<div class="num">
+							<p><span>Корпус:</span> <input type="text"></p>
+						</div>
+						<div class="num">
+							<p><span>Квартира:</span> <input type="text"></p>
+						</div>
+					</div>
+				</div>
+				<button class="submit" data-modal="confirmation"><img src="./img/register_submit_icon.png" width="48" height="48" alt=""> Зарегистрироваться</button>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="contacts">
+				<li>
+					<h5>Телефоны:</h5>
+					<p>+7 (495) 665 51 73</p>
+				</li>
+				<li>
+					<h5>Адрес:</h5>
+					<p>119049, г. Москва, Крымский вал, д. 3, стр. 2</p>
+				</li>
+				<li>
+					<h5>Электронная почта:</h5>
+					<p>msk@bki-okb.ru</p>
+				</li>
+			</ul>
+			<ul class="social">
+				<li><a href="#"><img src="./img/facebook_icon.png" width="33" height="33" alt=""></a></li>
+				<li><a href="#"><img src="./img/vkontakte_icon.png" width="33" height="33" alt=""></a></li>
+				<li><a href="#"><img src="./img/odnoklassniki_icon.png" width="33" height="33" alt=""></a></li>
+				<li><a href="#"><img src="./img/twitter_icon.png" width="33" height="33" alt=""></a></li>
+				<li><a href="#"><img src="./img/youtube_icon.png" width="33" height="33" alt=""></a></li>
+			</ul>
+			<p class="copy">©2014 ЗАО «Объединенное кредитное бюро»</p>
+		</div>
+	</div>
+	<div class="fade"></div>
+	<div class="modal" data-target="confirmation">
+		<h3>Подтверждение номера телефона</h3>
+		<p>На указанный вами номер телефона отправлено SMS c кодом подтверждения, введите полученный код, чтобы продолжить оформление заявки.</p>
+		<p>Если в течение 60 секунд SMS не пришло, проверьте номер телефона и получите код повторно.</p>
+		<div>
+			<p class="code"><span>Код из SMS</span> <input type="text"></p>
+			<p class="phone"><span>Мобильный телефон</span> <input type="text" value="+7(536)356-45-76"></p>
+			<p><strong><a href="#">Выслать код повторно</a></strong></p>
+		</div>
+		<h6><input type="checkbox" checked> Я ознакомлен(а) и принимаю <a href="#">настоящие условия</a> использования сервиса</h5>
+		<h6><input type="checkbox" checked> Я ознакомлен(а) и принимаю <a href="#">политику конфиденциальности сервиса</a></h6>
+		<h5><a href="#">Далее</a></h5>
+	</div>
+</body>
+</html>

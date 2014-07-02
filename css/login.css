@@ -1,0 +1,111 @@
+﻿/* Login */
+
+div.login {
+	padding:37px 0 75px;
+}
+div.login h1 {
+	position:relative;
+	color:#232629;
+	font-size:48px;
+	line-height:52px;
+	text-align:center;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 50px;
+}
+div.login h1:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:28px;
+	width:100%;
+	height:6px;
+	background:#dbdbdb;
+}
+div.login h1 span {
+	position:relative;
+	display:inline-block;
+	padding:0 29px;
+	background:#ffffff;
+}
+div.login p {
+	color:#54555d;
+	font-size:14px;
+	line-height:17px;
+	margin:0 366px 6px;
+}
+div.login p span {
+	display:block;
+	margin:0 0 3px;
+}
+div.login p input {
+	position:relative;
+	width:300px;
+	color:#232629;
+	font-size:18px;
+	font-family:'Arial', sans-serif;
+	padding:6px 15px 4px;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
+	border-top:1px solid #c9c9c9;
+	border-bottom:1px solid #efefef;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+div.login p input.error {
+	padding:5px 14px 3px;
+	background:#ffe5e5;
+	border:2px solid #ff2727;
+}
+div.login p em.error {
+	display:block;
+	color:#ff2727;
+	font-size:12px;
+	line-height:14px;
+	font-style:normal;
+	font-family:'Arial', sans-serif;
+	margin:4px 0 -3px;
+}
+div.login h6 {
+	font-size:13px;
+	line-height:16px;
+	font-weight:normal;
+	text-align:right;
+	padding:0;
+	margin:0 366px 16px;
+}
+div.login > div {
+	white-space:nowrap;
+	margin:25px 366px 16px;
+}
+div.login > div button {
+	display:inline-block;
+	color:#ffffff;
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	vertical-align:top;
+	text-align:center;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:6px 18px;
+	margin:0 -3px 0 23px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	behavior:url('./pie.htc');
+}
+div.login > div button:first-child {
+	margin-left:0;
+}
+div.login > div button.enter {
+	background:url('../img/login_enter.png') repeat-x top;
+}
+div.login > div button.register {
+	background:url('../img/login_register.png') repeat-x top;
+}
+div.login > div button:hover {
+	background-position:0 -34px;
+}

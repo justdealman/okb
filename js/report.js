@@ -63,4 +63,10 @@
 	});
 	var userdrop = $('.panel .user').innerWidth()-30;
 	$('.panel .user > div').width(userdrop);
+	$('.tabs .information .chief').each(function() {
+		$(this).find('h2 a').bind('click', function() {
+			$(this).parents('.chief').toggleClass('active');
+			return false;
+		}).click();
+	});
 });

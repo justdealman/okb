@@ -725,6 +725,28 @@
 	padding:0;
 	margin:0 10px 12px;
 }
+.tabs .information h2 a {
+	position:relative;
+	text-decoration:none;
+	border-bottom:1px dashed #0085d4;
+}
+.tabs .information h2 a:hover {
+	border-bottom:1px dashed transparent;
+}
+.tabs .information h2 a:after {
+	content:'';
+	position:absolute;
+	right:-13px;
+	top:11px;
+	border-left:3px solid transparent;
+	border-right:3px solid transparent;
+	border-top:3px solid #000000;
+	border-bottom-width:0;
+}
+.tabs .information .chief.active h2 a:after {
+	border-bottom:3px solid #000000;
+	border-top-width:0;
+}
 .tabs .information .thead {
 	clear:both;
 	overflow:hidden;
@@ -976,7 +998,7 @@
 	margin:0 0 8px;
 }
 .tabs .information .tbody > div > .more .history table thead td {
-	width:80px;
+	width:73px;
 	color:#232629;
 	font-size:14px;
 	line-height:18px;
@@ -996,7 +1018,7 @@
 }
 .tabs .information .tbody > div > .more .history table tbody td div {
 	position:relative;
-	width:76px;
+	width:73px;
 	height:32px;
 }
 .tabs .information .tbody > div > .more .history table tbody td span {
@@ -1030,7 +1052,7 @@
 	background:url('../img/tabs_information_history_arrow.png') no-repeat left top;
 }
 .tabs .information .tbody > div > .more .history table tbody td {
-	width:80px;
+	width:73px;
 	height:32px;
 	border-right:1px solid #ffffff;
 	border-bottom:1px solid #ffffff;
@@ -1054,6 +1076,12 @@
 	font-weight:normal;
 	padding:0;
 	margin:0 0 10px 52px;
+}
+.tabs .information .chief > div {
+	display:none;
+}
+.tabs .information .chief.active > div {
+	display:block;
 }
 .tabs .information .additional {
 	margin:34px 10px -10px;

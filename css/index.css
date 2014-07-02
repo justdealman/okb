@@ -101,7 +101,7 @@
 .slider .prev, .slider .next {
 	position:absolute;
 	top:50%;
-	z-index:100;
+	z-index:90;
 	display:block;
 	width:32px;
 	height:85px;
@@ -293,9 +293,9 @@
 	text-align:left;
 	vertical-align:top;
 	margin:0 -3px 0 24px;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	border-radius:3px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
 	behavior:url('./pie.htc');
 }
 .process ul li:hover {

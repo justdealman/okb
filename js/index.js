@@ -17,7 +17,7 @@
 	$('.faq ul li div').each(function() {
 		$(this).children('div').hide();
 		$(this).find('h3').bind('click', function() {
-			$(this).parent().children('div').slideToggle(0);
+			$(this).parent().children('div').slideToggle(250);
 			$(this).parent().toggleClass('active');
 			return false;
 		});

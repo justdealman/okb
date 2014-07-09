@@ -119,7 +119,7 @@
 	padding:42px 48px 51px 48px;
 }
 .support {
-	margin:0 32px px 48px;
+	margin:0 32px 0 48px;
 }
 .support h1 {
 	color:#232629;
@@ -272,7 +272,144 @@
 .support .buttons button.solved {
 	background:url('../img/support_button_solved.png') repeat-x top;
 }
-
 .support .buttons button:hover {
 	background-position:0 -38px;
+}
+
+/* Support 2 */
+
+.supportlist {
+	margin:-17px 0 -19px;
+}
+.supportlist h1 {
+	color:#232629;
+	font-size:36px;
+	line-height:40px;
+	font-weight:normal;
+	padding:0;
+	margin:0 6px 18px;
+}
+.supportlist > p {
+	color:#54555d;
+	font-size:12px;
+	line-height:14px;
+	font-family:'Arial', sans-serif;
+	margin:-15px 8px 22px;
+}
+.supportlist .controls {
+	margin:0 0 11px;
+}
+.supportlist .controls button {
+	position:relative;
+	display:inline-block;
+	width:316px;
+	color:#ffffff;
+	font-size:16px;
+	line-height:20px;
+	font-weight:bold;
+	text-align:left;
+	text-transform:uppercase;
+	white-space:nowrap;
+	cursor:pointer;
+	padding:18px 18px 17px 62px;
+	margin:0 -3px 0 10px;
+	background:url('../img/supportlist_controls_button.png') repeat-x top;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+.supportlist .controls button:hover {
+	background-position:0 -55px;
+}
+.supportlist .controls button.report:before {
+	content:'';
+	position:absolute;
+	left:16px;
+	top:12px;
+	width:32px;
+	height:29px;
+	background:url('../img/supportlist_button_report.png') no-repeat left top;
+}
+.supportlist .controls button.ask:before {
+	content:'';
+	position:absolute;
+	left:18px;
+	top:11px;
+	width:28px;
+	height:32px;
+	background:url('../img/supportlist_button_ask.png') no-repeat left top;
+}
+.supportlist .table {
+	position:relative;
+	margin:0 0 18px;
+}
+.supportlist .table h3 {
+	position:absolute;
+	right:0;
+	top:-28px;
+	color:#54555d;
+	font-size:18px;
+	line-height:22px;
+	padding:0;
+	margin:0;
+}
+.supportlist .table table {
+	width:100%;
+}
+.supportlist .table table thead th {
+	color:#232629;
+	font-size:12px;
+	line-height:14px;
+	font-weight:normal;
+	font-family:'Arial', sans-serif;
+	text-align:left;
+	padding:17px 11px 17px 9px;
+	background:url('../img/supportlist_table_th.png') repeat-x top;
+}
+.supportlist .table table .data {
+	width:161px;
+}
+.supportlist .table table .id {
+	width:88px;
+}
+.supportlist .table table .theme {
+	width:485px;
+}
+.supportlist .table table .status {
+	width:101px;
+	text-align:center;
+	padding-right:64px;
+}
+.supportlist .table table tbody td {
+	color:#232629;
+	font-size:14px;
+	line-height:16px;
+	font-weight:normal;
+	text-align:left;
+	padding:16px 11px 16px 9px;
+	background:#ffffff;
+}
+.supportlist .table table tbody tr:nth-child(2n) td {
+	background:#f6f6f6;
+}
+.supportlist .table table tbody td span {
+	position:relative;
+	display:block;
+	color:#ffffff;
+	font-size:12px;
+	text-align:center;
+	text-transform:uppercase;
+	padding:3px 6px 4px;
+	margin:-3px 0 -4px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	behavior:url('./pie.htc');
+}
+.supportlist .table table tbody td span.opened {
+	background:#2ae27c;
+}
+.supportlist .table table tbody td span.closed {
+	background:#b0b0b0;
 }

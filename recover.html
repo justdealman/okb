@@ -65,8 +65,8 @@
 				<h1><span>Восстановление пароля</span></h1>
 				<div>
 					<h3><span><input type="radio" name="r1"> При помощи мобильного телефона</span></h3>
-					<p><span>Введите номер мобильного телефона, указанный при регистрации:</span> <input type="text" class="phone"> <button>Выслать код</button> <em class="message">На номер телефона будет отправлено SMS с кодом</em></p>
-					<p><span>Введите код из SMS:</span> <input type="text" class="code"> <a href="#" class="repeat">Отправить повторно</a></p>
+					<p><span>Введите номер мобильного телефона, указанный при регистрации:</span> <input type="text" class="phone"> <button>Выслать код</button> <!--<em class="message">На номер телефона будет отправлено SMS с кодом</em>--></p>
+					<p><span>Введите код из SMS:</span> <input type="text" class="code"> <!--<a href="#" class="repeat">Отправить повторно</a>--></p>
 					<div>
 						<button>Дальше</button>
 						<!--<button class="disabled">Дальше</button>-->
@@ -74,11 +74,12 @@
 				</div>
 				<div>
 					<h3><span><input type="radio" name="r1"> По электронной почте</span></h3>
-					<p><span>Введите Email, указанный при регистрации:</span> <input type="text" class="phone"> <button>Выслать код</button> <em class="message">На адрес электронной почты будет отправлено письмо с дальнейшей инструкцией</em></p>
-					<div>
+					<p><span>Введите Email, указанный при регистрации:</span> <input type="text"> <button>Выслать код</button> <!--<em class="message">На адрес электронной почты будет отправлено письмо с дальнейшей инструкцией</em>--></p>
+					<p><span>Введите Email, указанный при регистрации:</span> <input type="text" class="error"> <button class="disabled">Выслать код</button> <em class="error">Поле обязательно для заполнения</em></p>
+					<!--<div>
 						<button>Дальше</button>
-						<!--<button class="disabled">Дальше</button>-->
-					</div>
+						<button class="disabled">Дальше</button>
+					</div>-->
 				</div>
 			</div>
 		</div>

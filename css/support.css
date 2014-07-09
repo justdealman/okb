@@ -239,6 +239,9 @@
 .support .type h6 a:hover {
 	border-bottom:1px dotted transparent;
 }
+.support .type h6 input[type="file"] {
+	display:none;
+}
 .support .buttons {
 	margin:0 0 21px 23px;
 }

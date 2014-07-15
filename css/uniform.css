@@ -166,6 +166,14 @@ div.radio {
     background:url('../img/radio_bg.png') no-repeat left top; }
     .recover div.radio span.checked {
       background-position: 0 -20px; }
+	  .services div.radio, .services div.radio span, .services div.radio input {
+    width: 15px;
+    height: 14px;
+	cursor:pointer;	}
+  .services div.radio span {
+    background:url('../img/services_radio_bg.png') no-repeat left top; }
+    .services div.radio span.checked {
+      background-position: 0 -14px; }
 
 /* Uploader */
 div.uploader {

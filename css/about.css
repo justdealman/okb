@@ -1,0 +1,67 @@
+﻿/* About */
+
+div.about {
+	padding:37px 0 22px;
+}
+div.about h1 {
+	position:relative;
+	color:#232629;
+	font-size:48px;
+	line-height:52px;
+	text-align:center;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 18px;
+}
+div.about h1:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:28px;
+	width:100%;
+	height:6px;
+	background:#dbdbdb;
+}
+div.about h1 span {
+	position:relative;
+	display:inline-block;
+	padding:0 29px;
+	background:#ffffff;
+}
+div.about h2 {
+	color:#232629;
+	font-size:26px;
+	line-height:30px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 13px;
+}
+div.about > div {
+	margin:0 48px 25px;
+}
+div.about > div:last-child {
+	margin-bottom:0;
+}
+div.about > div > div {
+	padding:17px 17px 4px;
+	margin:0 0 10px;
+	background:#f3f3f3;
+}
+div.about > div > div p {
+	color:#54555d;
+	font-size:14px;
+	line-height:18px;
+	font-family:'Arial', sans-serif;
+	margin:0 0 18px;
+}
+div.about > div > div ul {
+	margin:24px 0 18px 10px;
+}
+div.about > div > div ul li {
+	font-size:14px;
+	line-height:18px;
+	font-family:'Arial', sans-serif;
+	padding:0 0 0 15px;
+	margin:0 0 6px;
+	background:url('../img/about_li.png') no-repeat left 5px;
+}
